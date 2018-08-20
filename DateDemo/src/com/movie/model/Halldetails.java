@@ -23,6 +23,15 @@ public class Halldetails implements java.io.Serializable {
 	private Integer platinumprice;
 	private String showTime;
 	private String createdBy;
+	private String managedBy;
+
+	public String getManagedBy() {
+		return managedBy;
+	}
+
+	public void setManagedBy(String managedBy) {
+		this.managedBy = managedBy;
+	}
 
 	public Halldetails() {
 	}
