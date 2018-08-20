@@ -24,6 +24,15 @@ public class Halldetails implements java.io.Serializable {
 	private String showTime;
 	private String createdBy;
 	private String managedBy;
+	private String editedBy;
+
+	public String getEditedBy() {
+		return editedBy;
+	}
+
+	public void setEditedBy(String editedBy) {
+		this.editedBy = editedBy;
+	}
 
 	public String getManagedBy() {
 		return managedBy;
